@@ -1,0 +1,180 @@
+[{
+  "_id": {
+    "$oid": "649e1502c2ec62928e9591a7"
+  },
+  "id_contrato": {
+    "$oid": "649e1502c2ec62928e9591a4"
+  },
+  "data_inicio": "11/09/2022",
+  "data_fim": "11/09//2024",
+  "tipo_contrato": "anual",
+  "forma_pagamento": "boleto",
+  "boleto": [
+    {
+      "id_boleto": {
+        "$oid": "649e1502c2ec62928e9591a5"
+      },
+      "data_emissao": "11/09/2022",
+      "data_vencimento": "12/09/2023",
+      "valor": 90000,
+      "status": "P",
+      "data_pagamento": "12/09/2023"
+    },
+    {
+      "id_boleto": {
+        "$oid": "649e1502c2ec62928e9591a6"
+      },
+      "data_emissao": "11/09/2023",
+      "data_vencimento": "12/09/2024",
+      "valor": 110000,
+      "status": "NP",
+      "data_pagamento": null
+    }
+  ],
+  "materiais": [
+    {
+      "$ref": "material_servico",
+      "$id_material": {
+        "$oid": "649e1150c2ec62928e959198"
+      }
+    },
+    {
+      "$ref": "material_servico",
+      "$id_material": {
+        "$oid": "649e116bc2ec62928e95919a"
+      }
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "649e1759c2ec62928e9591aa"
+  },
+  "id_contrato": {
+    "$oid": "649e1759c2ec62928e9591a8"
+  },
+  "data_inicio": "01/08/2023",
+  "data_fim": "01/02//2024",
+  "tipo_contrato": "semestral",
+  "forma_pagamento": "boleto",
+  "boleto": [
+    {
+      "id_boleto": {
+        "$oid": "649e1759c2ec62928e9591a9"
+      },
+      "data_emissao": "25/12/2023",
+      "data_vencimento": "02/02/2024",
+      "valor": 35000,
+      "status": "P",
+      "data_pagamento": null
+    }
+  ],
+  "materiais": [
+    {
+      "$ref": "material_servico",
+      "$id_material": {
+        "$oid": "649e1192c2ec62928e95919c"
+      }
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "649e19a7c2ec62928e9591ae"
+  },
+  "id_contrato": {
+    "$oid": "649e19a7c2ec62928e9591ab"
+  },
+  "data_inicio": "10/01/2022",
+  "data_fim": "10/01//2024",
+  "tipo_contrato": "anual",
+  "forma_pagamento": "boleto",
+  "boleto": [
+    {
+      "id_boleto": {
+        "$oid": "649e19a7c2ec62928e9591ac"
+      },
+      "data_emissao": "10/01/2022",
+      "data_vencimento": "11/01/2023",
+      "valor": 250000,
+      "status": "P",
+      "data_pagamento": "11/01/2023"
+    },
+    {
+      "id_boleto": {
+        "$oid": "649e19a7c2ec62928e9591ad"
+      },
+      "data_emissao": "10/01/2023",
+      "data_vencimento": "11/01/2024",
+      "valor": 245000,
+      "status": "NP",
+      "data_pagamento": null
+    }
+  ],
+  "materiais": [
+    {
+      "$ref": "material_servico",
+      "$id_material": {
+        "$oid": "649e11bcc2ec62928e95919e"
+      }
+    },
+    {
+      "$ref": "material_servico",
+      "$id_material": {
+        "$oid": "649e11dec2ec62928e9591a0"
+      }
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "649e1e2cc2ec62928e9591b3"
+  },
+  "id_contrato": {
+    "$oid": "649e1e2cc2ec62928e9591af"
+  },
+  "data_inicio": "20/06/2023",
+  "data_fim": "20/09//2023",
+  "tipo_contrato": "trimestral",
+  "forma_pagamento": "boleto",
+  "boleto": [
+    {
+      "id_boleto": {
+        "$oid": "649e1e2cc2ec62928e9591b0"
+      },
+      "data_emissao": "20/06/2023",
+      "data_vencimento": "21/07/2023",
+      "valor": 10000,
+      "status": "P",
+      "data_pagamento": "21/08/2023"
+    },
+    {
+      "id_boleto": {
+        "$oid": "649e1e2cc2ec62928e9591b1"
+      },
+      "data_emissao": "20/07/2023",
+      "data_vencimento": "20/08/2023",
+      "valor": 10000,
+      "status": "P",
+      "data_pagamento": "20/08/2023"
+    },
+    {
+      "id_boleto": {
+        "$oid": "649e1e2cc2ec62928e9591b2"
+      },
+      "data_emissao": "20/08/2023",
+      "data_vencimento": "20/09/2023",
+      "valor": 100000,
+      "status": "P",
+      "data_pagamento": "20/09/2023"
+    }
+  ],
+  "materiais": [
+    {
+      "$ref": "material_servico",
+      "$id_material": {
+        "$oid": "649e12a8c2ec62928e9591a2"
+      }
+    }
+  ]
+}]

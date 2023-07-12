@@ -1,0 +1,70 @@
+db.contrato.insertMany([
+  {
+    "id_contrato": ObjectId(),
+    "data_inicio": "valor",
+    "data_fim": "valor",
+    "tipo_contrato": "valor",
+    "forma_pagamento": "valor",
+    "boletos": [
+      {
+        "id_boleto": ObjectId(),
+        "data_emissao": "valor",
+        "data_vencimento": "valor",
+        "valor": "valor",
+        "status": "valor",
+        "data_pagamento": "valor"
+      }
+    ],
+    "materiais": [
+      {
+        "$ref": "material_servico",
+        "$id_material": ObjectId("valor")
+      },
+      {
+        "$ref": "material_servico",
+        "$id_material": ObjectId("valor")
+      }
+    ]
+  }
+]);
+
+db.fornecedor.insertMany([
+  {
+    "id_fornecedor": ObjectId(),
+    "nome": "valor",
+    "endereco": "valor",
+    "telefone": "valor"
+  }
+]);
+
+db.material_servico.insertMany([
+  {
+    "id_material": ObjectId(),
+    "nome": "valor",
+    "descricao": "valor",
+    "fornecedores": [
+      {
+        "$ref": "fornecedor",
+        "$id_fornecedor": ObjectId("valor"),
+        "fornecimentos": [
+          {
+            "data_fornecimento": "valor",
+            "quantidade": "valor",
+            "valor_unitario": "valor"
+          }
+        ]
+      },
+      {
+        "$ref": "fornecedor",
+        "$id_fornecedor": ObjectId("valor"),
+        "fornecimentos": [
+          {
+            "data_fornecimento": "valor",
+            "quantidade": "valor",
+            "valor_unitario": "valor"
+          }
+        ]
+      }
+    ]
+  }
+]);

@@ -1,0 +1,163 @@
+[{
+  "_id": {
+    "$oid": "649e1150c2ec62928e959199"
+  },
+  "id_material": {
+    "$oid": "649e1150c2ec62928e959198"
+  },
+  "nome": "tubo aco",
+  "descricao": "tubo de aco inox 40mm para vapor de agua",
+  "fornecedores": [
+    {
+      "$ref": "fornecedor",
+      "$id_fornecedor": {
+        "$oid": "649b31da374cc28a6429d6eb"
+      },
+      "fornecimentos": [
+        {
+          "data_fornecimento": "10/05/2023",
+          "quantidade": 1000,
+          "valor_unidade": 10
+        }
+      ]
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "649e116bc2ec62928e95919b"
+  },
+  "id_material": {
+    "$oid": "649e116bc2ec62928e95919a"
+  },
+  "nome": "joelho 90 aco",
+  "descricao": "joelho aco inox 90 graus roscavel 40mm para vapor de agua",
+  "fornecedores": [
+    {
+      "$ref": "fornecedor",
+      "$id_fornecedor": {
+        "$oid": "649b31da374cc28a6429d6eb"
+      },
+      "fornecimentos": [
+        {
+          "data_fornecimento": "10/05/2023",
+          "quantidade": 1000,
+          "valor_unidade": 10
+        }
+      ]
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "649e1192c2ec62928e95919d"
+  },
+  "id_material": {
+    "$oid": "649e1192c2ec62928e95919c"
+  },
+  "nome": "cerveja litrao",
+  "descricao": "litrao de brahma para os finais de semana",
+  "fornecedores": [
+    {
+      "$ref": "fornecedor",
+      "$id_fornecedor": {
+        "$oid": "649b3203374cc28a6429d6ed"
+      },
+      "fornecimentos": [
+        {
+          "data_fornecimento": "10/05/2023",
+          "quantidade": 1000,
+          "valor_unidade": 10
+        }
+      ]
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "649e11bcc2ec62928e95919f"
+  },
+  "id_material": {
+    "$oid": "649e11bcc2ec62928e95919e"
+  },
+  "nome": "concreto bombeavel",
+  "descricao": "concreto bombeavel para grandes obras",
+  "fornecedores": [
+    {
+      "$ref": "fornecedor",
+      "$id_fornecedor": {
+        "$oid": "649b32e9374cc28a6429d6ef"
+      },
+      "fornecimentos": [
+        {
+          "data_fornecimento": "10/05/2023",
+          "quantidade": 1000,
+          "valor_unidade": 10
+        }
+      ]
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "649e11dec2ec62928e9591a1"
+  },
+  "id_material": {
+    "$oid": "649e11dec2ec62928e9591a0"
+  },
+  "nome": "concreto impermeavel",
+  "descricao": "concreto impermeavel anti-infiltracao",
+  "fornecedores": [
+    {
+      "$ref": "fornecedor",
+      "$id_fornecedor": {
+        "$oid": "649b32e9374cc28a6429d6ef"
+      },
+      "fornecimentos": [
+        {
+          "data_fornecimento": "10/05/2023",
+          "quantidade": 1000,
+          "valor_unidade": 10
+        }
+      ]
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "649e12a8c2ec62928e9591a3"
+  },
+  "id_material": {
+    "$oid": "649e12a8c2ec62928e9591a2"
+  },
+  "nome": "tijolo",
+  "descricao": "tijolo vazado comum",
+  "fornecedores": [
+    {
+      "$ref": "fornecedor",
+      "$id_fornecedor": {
+        "$oid": "649e0a39c2ec62928e959192"
+      },
+      "fornecimentos": [
+        {
+          "data_fornecimento": "10/05/2023",
+          "quantidade": 1000,
+          "valor_unidade": 10
+        }
+      ]
+    },
+    {
+      "$ref": "fornecedor",
+      "$id_fornecedor": {
+        "$oid": "649e0a56c2ec62928e959194"
+      },
+      "fornecimentos": [
+        {
+          "data_fornecimento": "10/05/2023",
+          "quantidade": 1000,
+          "valor_unidade": 10
+        }
+      ]
+    }
+  ]
+}]

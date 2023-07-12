@@ -1,0 +1,63 @@
+[{
+  "_id": {
+    "$oid": "649b31da374cc28a6429d6ec"
+  },
+  "id_fornecedor": {
+    "$oid": "649b31da374cc28a6429d6eb"
+  },
+  "nome": "Tigre",
+  "endereco": "rua almirante ferreira 787",
+  "telefone": {
+    "$numberLong": "21761232785"
+  }
+},
+{
+  "_id": {
+    "$oid": "649b3203374cc28a6429d6ee"
+  },
+  "id_fornecedor": {
+    "$oid": "649b3203374cc28a6429d6ed"
+  },
+  "nome": "AMBEV",
+  "endereco": "rua pedro barroso 65",
+  "telefone": 1764212785
+},
+{
+  "_id": {
+    "$oid": "649b32e9374cc28a6429d6f0"
+  },
+  "id_fornecedor": {
+    "$oid": "649b32e9374cc28a6429d6ef"
+  },
+  "nome": "Votorantim",
+  "endereco": "rua uruguai 100",
+  "telefone": {
+    "$numberLong": "7874212785"
+  }
+},
+{
+  "_id": {
+    "$oid": "649e0a39c2ec62928e959193"
+  },
+  "id_fornecedor": {
+    "$oid": "649e0a39c2ec62928e959192"
+  },
+  "nome": "Dutra Tijolos",
+  "endereco": "rua 1 de janeiro 1788",
+  "telefone": {
+    "$numberLong": "910864752734"
+  }
+},
+{
+  "_id": {
+    "$oid": "649e0a56c2ec62928e959195"
+  },
+  "id_fornecedor": {
+    "$oid": "649e0a56c2ec62928e959194"
+  },
+  "nome": "Marcelo Tijolos",
+  "endereco": "rua 2 de fevereiro 8888",
+  "telefone": {
+    "$numberLong": "9108648356834"
+  }
+}]
