@@ -1,6 +1,6 @@
 # Gerenciamento de contratos: modelagem de banco de dados documental
 
-**Prefácio:** Neste projeto, eu criei uma solução para gerenciamento e armazenamento de contratos com seus respectivos fornecedores através da modelagem de banco de dados. através das três principais etapas de modelagem de um banco de dados: modelo conceitual, modelo lógico e modelo físico.
+**Prefácio:** Neste projeto, desenvolvi uma solução para o gerenciamento e armazenamento de contratos e seus respectivos fornecedores, utilizando uma abordagem de modelagem de banco de dados. Ao longo do processo, foram seguidas as três etapas principais de modelagem de banco de dados: modelo conceitual, modelo lógico e modelo físico.
 
 ### Introdução
 O gerenciamento eficiente de contratos é crucial para empresas de todos os portes. No entanto, lidar com a complexidade de contratos de fornecimento pode ser desafiador, especialmente para grandes empresas multinacionais.
